@@ -1,0 +1,30 @@
+.index_swiper{
+    height: 340rpx;
+}
+.index_cate{
+    display: flex;
+    navigator{
+        flex: 1;
+        padding: 25rpx;
+    }
+}
+.index_floor{
+    .floor_content{
+        padding: 0 10rpx;
+        overflow: hidden;
+        navigator{
+            width: 33.33%;
+            float: left;
+            image{
+                height: 100%;
+            }
+            &:nth-last-child(-n+4){
+                height: 750rpx / 3 * 386 / 232 / 2;
+                border-left: 10rpx solid #fff;
+            }
+            &:nth-last-child(-n+2){
+                border-top: 10rpx solid #fff;
+            }
+        }
+    }
+}
